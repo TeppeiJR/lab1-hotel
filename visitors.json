@@ -1,0 +1,13 @@
+[ {
+  "nameVisitor" : "Марія",
+  "surnameVisitor" : "Ткаченко",
+  "age" : 27,
+  "phoneNumber" : "+380931112233",
+  "bookings" : [ ]
+}, {
+  "nameVisitor" : "Олександр",
+  "surnameVisitor" : "Ковальчук",
+  "age" : 32,
+  "phoneNumber" : "+380501234567",
+  "bookings" : [ ]
+} ]
