@@ -14,8 +14,8 @@ public class HotelTest {
 
     @BeforeEach
     void setUp() {
-        hotel = new Hotel("Test Hotel", "Test Address");
-        room = new Room(1, "Standard", 300.0);
+        hotel = new Hotel("Тестовий готель", "Тестова адреса");
+        room = new Room(1, "Стандарт", 300.0);
         visitor = new Visitor("Оля", "Коваль", 25, "+380671234567");
 
         hotel.addRoom(room);
@@ -64,9 +64,9 @@ public class HotelTest {
     // Тест для підрахунку заброньованих номерів
     @Test
     void testCountCurrentlyBookedRooms() {
-        Room room1 = new Room(2, "Single", 200.0);
-        Room room2 = new Room(3, "Double", 300.0);
-        Room room3 = new Room(4, "Suite", 400.0);
+        Room room1 = new Room(2, "Одномісний номер", 200.0);
+        Room room2 = new Room(3, "Двомісний номер", 300.0);
+        Room room3 = new Room(4, "Люкс", 400.0);
 
         Visitor visitor1 = new Visitor("Іван", "Марченко", 25, "1234567890");
         Visitor visitor2 = new Visitor("Марія", "Цимбал", 45, "0987654321");

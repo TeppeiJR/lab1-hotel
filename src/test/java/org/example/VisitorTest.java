@@ -15,7 +15,7 @@ public class VisitorTest {
     @BeforeEach
     void setUp() {
         visitor = new Visitor("Олена", "Шевченко", 28, "+380671112233");
-        room = new Room(2, "Double", 150.99);
+        room = new Room(2, "Двомісний номер", 150.99);
         booking = new Booking(room, visitor, 3, LocalDate.of(2025, 5, 1));
     }
 
