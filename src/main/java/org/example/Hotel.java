@@ -116,7 +116,7 @@ public class Hotel {
 
     public Visitor readVisitor(String visitorPhone) {
         if (!visitors.containsKey(visitorPhone)) {
-            throw new IllegalArgumentException("Відвідувача з таким ID не знайдено.");
+            throw new IllegalArgumentException("Відвідувача з таким номером телефона не знайдено.");
         }
         return visitors.get(visitorPhone);
     }
@@ -130,7 +130,7 @@ public class Hotel {
 
     public void deleteVisitor(String visitorPhone) {
         if (!visitors.containsKey(visitorPhone)) {
-            throw new IllegalArgumentException("Відвідувача з таким ID не існує.");
+            throw new IllegalArgumentException("Відвідувача з таким номером телефона не існує.");
         }
         visitors.remove(visitorPhone);
     }
