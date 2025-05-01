@@ -1,19 +1,7 @@
 [ {
-  "idRoom" : 1,
-  "typeRoom" : "Двомісний номер",
-  "pricePerNight" : 150.0,
-  "bookDates" : [ ],
-  "booked" : false
-}, {
-  "idRoom" : 2,
-  "typeRoom" : "Одномісний номер",
-  "pricePerNight" : 90.0,
-  "bookDates" : [ ],
-  "booked" : false
-}, {
-  "idRoom" : 10,
-  "typeRoom" : "Найрозкішніший номер",
-  "pricePerNight" : 2000.0,
+  "idRoom" : 3,
+  "typeRoom" : "Номер на трьох",
+  "pricePerNight" : 300.0,
   "bookDates" : [ ],
   "booked" : false
 } ]
